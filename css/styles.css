@@ -45,6 +45,9 @@ main {
 .page-header {
     color: #2E2F42;
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08)
 }
 
 .page-header a, .page-header .nav-list-item {
@@ -70,7 +73,7 @@ main {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5
+    color: #4D5AE5;
 }
 
 .text-color-logo {
@@ -87,8 +90,9 @@ main {
 }
 
 .nav-list-item {
-
+    
 }
+
 
 .nav-link:hover,
 .contact-link:hover,
@@ -97,11 +101,28 @@ main {
     color: #404BBF;
 }
 
+.nav-link:hover::after,
+.contact-link:hover::after,
+.nav-link:focus::after,
+.contact-link:focus::after {
+    content: "";
+    color: #404BBF;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 .nav-link {
+    position: relative;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact {
@@ -121,6 +142,7 @@ main {
 .contact-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* #endregion */
