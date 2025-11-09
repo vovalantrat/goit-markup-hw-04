@@ -460,4 +460,8 @@ main {
     margin: 0;
 }
 
+.footer-social .icon-link:hover, .icon-link:focus {
+    background-color: #31d0aa;
+}
+
 /* #endregion */
