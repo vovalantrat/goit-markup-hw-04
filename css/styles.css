@@ -372,7 +372,7 @@ main {
 }
 
 .portfolio-list-item:hover .img-container-content {
-    transform: translateY(0%);пш
+    transform: translateY(0%);
 }
 
 .portfolio-img-container {
