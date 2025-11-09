@@ -100,21 +100,6 @@ main {
     color: #404BBF;
 }
 
-.nav-link:hover::after,
-.contact-link:hover::after,
-.nav-link:focus::after,
-.contact-link:focus::after {
-    content: "";
-    color: #404BBF;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
-
 .nav-link {
     position: relative;
     font-weight: 500;
@@ -122,6 +107,17 @@ main {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover::after, .nav-link:focus::after   {
+    content: "";
+    width: 100%;
+    position: absolute;     
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .contact {
