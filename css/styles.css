@@ -50,7 +50,7 @@ main {
         0px 1px 6px rgba(46, 47, 66, 0.08)
 }
 
-.page-header a, .page-header .nav-list-item {
+.page-header a {
     padding: 24px 0;
 }
 
@@ -90,7 +90,7 @@ main {
 }
 
 .nav-list-item {
-
+    
 }
 
 .nav-link:hover,
@@ -101,6 +101,7 @@ main {
 }
 
 .nav-link {
+    display: inline-block;
     position: relative;
     font-weight: 500;
     font-size: 16px;
