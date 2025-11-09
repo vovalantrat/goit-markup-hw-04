@@ -421,6 +421,7 @@ main {
 
 .page-footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-social {
@@ -449,13 +450,14 @@ main {
     letter-spacing: 0.02em;
 }
 
+.footer-social-title {
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
 .footer-social .icon-list {
     gap: 16px;
     margin: 0;
-}
-
-.footer-social p {
-    margin-bottom: 16px;
 }
 
 /* #endregion */
