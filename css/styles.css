@@ -101,10 +101,10 @@ main {
     color: #404BBF;
 }
 
-.nav-link:hover::after,
-.contact-link:hover::after,
-.nav-link:focus::after,
-.contact-link:focus::after {
+.nav-link::after,
+.contact-link::after,
+.nav-link::after,
+.contact-link::after {
     content: "";
     color: #404BBF;
     width: 100%;
@@ -117,7 +117,6 @@ main {
 }
 
 .nav-link {
-    color: #404bbf;
     position: relative;
     font-weight: 500;
     font-size: 16px;
