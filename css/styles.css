@@ -368,8 +368,8 @@ main {
     cursor: pointer;
 }
 
-.portfolio-list-item:hover p {
-    transform: translateY(0%);
+.portfolio-img-container {
+    
 }
 
 .portfolio-dscr {
