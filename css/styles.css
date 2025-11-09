@@ -315,34 +315,36 @@ main {
     margin-bottom: 8px;
 }
 
-.icon-list-container {
-    
-}
-
 .icon-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
-    margin: 0 16px 32px 16px;
+    margin: 0 16px;
 }
 
 .icon-container {
     position: relative;
     flex-basis: 40px;
     height: 40px;
-    background-color: #4D5AE5;
-    border-radius: 50%;
     cursor: pointer;
 }
 
-.about-icon-link {
-   
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
+.icon-link:hover, .icon-link:focus {
+    background-color: #404bbf;
 }
 
 .social-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   fill: #f4f4fd;
 }
 
 .portfolio {
